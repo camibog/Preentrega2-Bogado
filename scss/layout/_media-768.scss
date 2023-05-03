@@ -1,198 +1,200 @@
-header {
-  height: 25rem;
-  .titulo-propiedades {
-    font-size: 12rem;
-  }
-  .icons-head {
-    display: flex;
-    margin-top: 4rem;
-    height: 30px;
-    flex-direction: row-reverse;
-  }
-}
-footer {
-  .pie-pagina {
-    margin-top: 2rem;
-    margin-left: 20rem;
-    height: 3rem;
-    .img-group {
+@media (min-width: 768px) {
+  header {
+    height: 25rem;
+    .titulo-propiedades {
+      font-size: 12rem;
+    }
+    .icons-head {
       display: flex;
+      margin-top: 4rem;
+      height: 30px;
+      flex-direction: row-reverse;
+    }
+  }
+  footer {
+    .pie-pagina {
+      margin-top: 2rem;
+      margin-left: 20rem;
       height: 3rem;
-      margin-top: 4.5rem;
-      margin-left: -30rem;
-    }
-    .text-foot {
-      display: flex;
-      margin-top: -2.5rem;
-      margin-left: -25rem;
+      .img-group {
+        display: flex;
+        height: 3rem;
+        margin-top: 4.5rem;
+        margin-left: -30rem;
+      }
+      .text-foot {
+        display: flex;
+        margin-top: -2.5rem;
+        margin-left: -25rem;
+      }
     }
   }
-}
 
-/* MQ INDEX */
-main {
-  .texto-principal {
-    margin-top: 8rem;
+  /* MQ INDEX */
+  main {
+    .texto-principal {
+      margin-top: 8rem;
+      font-size: 3rem;
+    }
+  }
+
+  /* MQ GIRAS */
+  .fecha-uy {
+    @include fechas(
+      3rem,
+      $tipografia-principal,
+      $color-principal,
+      uppercase,
+      4rem,
+      6rem
+    );
+  }
+  .fecha-cor {
+    @include fechas(
+      3rem,
+      $tipografia-principal,
+      $color-principal,
+      uppercase,
+      none,
+      25rem
+    );
+  }
+  .fecha-bsaires {
+    @include fechas(
+      3rem,
+      $tipografia-principal,
+      $color-principal,
+      uppercase,
+      -23rem,
+      45rem
+    );
+  }
+  .fecha-bcn {
+    @include fechas(
+      3rem,
+      $tipografia-principal,
+      $color-principal,
+      uppercase,
+      10rem,
+      2rem
+    );
+  }
+  .fecha-vln {
+    @include fechas(
+      3rem,
+      $tipografia-principal,
+      $color-principal,
+      uppercase,
+      -5rem,
+      45rem
+    );
+  }
+  .fecha-cadiz {
     font-size: 3rem;
-  }
-}
-
-/* MQ GIRAS */
-.fecha-uy {
-  @include fechas(
-    3rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    4rem,
-    6rem
-  );
-}
-.fecha-cor {
-  @include fechas(
-    3rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    none,
-    25rem
-  );
-}
-.fecha-bsaires {
-  @include fechas(
-    3rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    -23rem,
-    45rem
-  );
-}
-.fecha-bcn {
-  @include fechas(
-    3rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    10rem,
-    2rem
-  );
-}
-.fecha-vln {
-  @include fechas(
-    3rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    -5rem,
-    45rem
-  );
-}
-.fecha-cadiz {
-  font-size: 3rem;
-  margin-top: -5rem;
-  margin-left: 20rem;
-}
-
-/* MAIN LANZAMIENTOS */
-.titulo-album {
-  font-family: "Indie flower";
-  margin-left: 30rem;
-  font-size: 35px;
-}
-.albumimg {
-  margin-left: 28rem;
-  .albumimg2 {
-    height: 20rem;
-  }
-}
-.downloadimg {
-  margin-left: 35rem;
-}
-.jordanimg {
-  .lasjordan {
-    margin-top: -7rem;
-  }
-}
-.tepidoimg {
-  .tepido {
-    margin-left: 60rem;
-  }
-  .tepidoimg2 {
-    margin-left: 55rem;
-  }
-}
-
-/* MAIN SHOP */
-.linea-s {
-  .linea-search {
-    display: flex;
-    width: 14rem;
-    color: white;
-    margin-top: 3rem;
-    margin-left: 55rem;
-  }
-}
-.search {
-  height: 22px;
-  .carrito {
-    margin-top: -7rem;
-    margin-left: 70rem;
-  }
-  .text-store {
-    display: flex;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-family: "Indie flower";
     margin-top: -5rem;
-    margin-left: 55rem;
-    color: white;
+    margin-left: 20rem;
   }
-  .lupa-icon {
-    display: flex;
-    margin-top: -3rem;
-    margin-left: 50rem;
-  }
-}
-.t-shirtdiv {
-  @include shop(none, -10rem, 60rem);
-}
-.t-shirt {
-  .t-shirtimg {
-    @include shop(none, -1rem, 45rem);
-  }
-}
-.rectangulo-tshirt {
-  @include shop(none, -1rem, 43rem);
-}
-.medidast-shirt {
-  @include shop(none, -8rem, 61rem);
-}
 
-/* MAIN CONTACTO */
+  /* MAIN LANZAMIENTOS */
+  .titulo-album {
+    font-family: "Indie flower";
+    margin-left: 30rem;
+    font-size: 35px;
+  }
+  .albumimg {
+    margin-left: 28rem;
+    .albumimg2 {
+      height: 20rem;
+    }
+  }
+  .downloadimg {
+    margin-left: 35rem;
+  }
+  .jordanimg {
+    .lasjordan {
+      margin-top: -7rem;
+    }
+  }
+  .tepidoimg {
+    .tepido {
+      margin-left: 60rem;
+    }
+    .tepidoimg2 {
+      margin-left: 55rem;
+    }
+  }
 
-.formulario {
-  @include form(400px, 30rem, 30px, 10rem, 18rem, 8px, $colorform);
-  .tituloform {
-    color: $color-principal;
+  /* MAIN SHOP */
+  .linea-s {
+    .linea-search {
+      display: flex;
+      width: 14rem;
+      color: white;
+      margin-top: 3rem;
+      margin-left: 55rem;
+    }
   }
-  .name {
-    text-align: center;
-    padding-left: 5rem;
+  .search {
+    height: 22px;
+    .carrito {
+      margin-top: -7rem;
+      margin-left: 70rem;
+    }
+    .text-store {
+      display: flex;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: "Indie flower";
+      margin-top: -5rem;
+      margin-left: 55rem;
+      color: white;
+    }
+    .lupa-icon {
+      display: flex;
+      margin-top: -3rem;
+      margin-left: 50rem;
+    }
   }
-  .email {
-    margin-top: 1rem;
-    text-align: center;
-    padding-left: 5rem;
+  .t-shirtdiv {
+    @include shop(none, -10rem, 60rem);
   }
-  .message {
-    margin-top: 2rem;
-    padding: 9rem;
+  .t-shirt {
+    .t-shirtimg {
+      @include shop(none, -1rem, 45rem);
+    }
   }
-  .boton {
-    padding: 1rem;
-    color: $color-principal;
-    font-family: $tipografia-principal;
-    text-transform: uppercase;
+  .rectangulo-tshirt {
+    @include shop(none, -1rem, 43rem);
+  }
+  .medidast-shirt {
+    @include shop(none, -8rem, 61rem);
+  }
+
+  /* MAIN CONTACTO */
+
+  .formulario {
+    @include form(400px, 30rem, 30px, 10rem, 18rem, 8px, $colorform);
+    .tituloform {
+      color: $color-principal;
+    }
+    .name {
+      text-align: center;
+      padding-left: 5rem;
+    }
+    .email {
+      margin-top: 1rem;
+      text-align: center;
+      padding-left: 5rem;
+    }
+    .message {
+      margin-top: 2rem;
+      padding: 9rem;
+    }
+    .boton {
+      padding: 1rem;
+      color: $color-principal;
+      font-family: $tipografia-principal;
+      text-transform: uppercase;
+    }
   }
 }

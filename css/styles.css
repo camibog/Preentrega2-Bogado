@@ -17,7 +17,7 @@ body {
 
 header {
   grid-area: "header";
-  background-image: url(../../assets/img/tinihead2.jpg);
+  background-image: url(../assets/img/tinihead2.jpg);
   background-size: cover;
 }
 header h1 {
@@ -54,7 +54,7 @@ footer .text-foot {
 
 main {
   grid-area: "main";
-  background-image: url(../../assets/img/tinimain.png);
+  background-image: url(./../assets/img/tinimain.png);
   height: 50rem;
   background-size: contain;
 }
@@ -396,371 +396,331 @@ main .img {
   text-transform: uppercase;
 }
 
-header {
-  height: 25rem;
-}
-header .titulo-propiedades {
-  font-size: 12rem;
-}
-header .icons-head {
-  display: flex;
-  margin-top: 4rem;
-  height: 30px;
-  flex-direction: row-reverse;
-}
-
-footer .pie-pagina {
-  margin-top: 2rem;
-  margin-left: 20rem;
-  height: 3rem;
-}
-footer .pie-pagina .img-group {
-  display: flex;
-  height: 3rem;
-  margin-top: 4.5rem;
-  margin-left: -30rem;
-}
-footer .pie-pagina .text-foot {
-  display: flex;
-  margin-top: -2.5rem;
-  margin-left: -25rem;
-}
-
-/* MQ INDEX */
-main .texto-principal {
-  margin-top: 8rem;
-  font-size: 3rem;
-}
-
-/* MQ GIRAS */
-.fecha-uy {
-  font-size: 3rem;
-  font-family: "Indie flower";
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: 4rem;
-  margin-left: 6rem;
-}
-
-.fecha-cor {
-  font-size: 3rem;
-  font-family: "Indie flower";
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: none;
-  margin-left: 25rem;
-}
-
-.fecha-bsaires {
-  font-size: 3rem;
-  font-family: "Indie flower";
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: -23rem;
-  margin-left: 45rem;
-}
-
-.fecha-bcn {
-  font-size: 3rem;
-  font-family: "Indie flower";
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: 10rem;
-  margin-left: 2rem;
-}
-
-.fecha-vln {
-  font-size: 3rem;
-  font-family: "Indie flower";
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: -5rem;
-  margin-left: 45rem;
-}
-
-.fecha-cadiz {
-  font-size: 3rem;
-  margin-top: -5rem;
-  margin-left: 20rem;
-}
-
-/* MAIN LANZAMIENTOS */
-.titulo-album {
-  font-family: "Indie flower";
-  margin-left: 30rem;
-  font-size: 35px;
-}
-
-.albumimg {
-  margin-left: 28rem;
-}
-.albumimg .albumimg2 {
-  height: 20rem;
-}
-
-.downloadimg {
-  margin-left: 35rem;
-}
-
-.jordanimg .lasjordan {
-  margin-top: -7rem;
-}
-
-.tepidoimg .tepido {
-  margin-left: 60rem;
-}
-.tepidoimg .tepidoimg2 {
-  margin-left: 55rem;
-}
-
-/* MAIN SHOP */
-.linea-s .linea-search {
-  display: flex;
-  width: 14rem;
-  color: white;
-  margin-top: 3rem;
-  margin-left: 55rem;
-}
-
-.search {
-  height: 22px;
-}
-.search .carrito {
-  margin-top: -7rem;
-  margin-left: 70rem;
-}
-.search .text-store {
-  display: flex;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: "Indie flower";
-  margin-top: -5rem;
-  margin-left: 55rem;
-  color: white;
-}
-.search .lupa-icon {
-  display: flex;
-  margin-top: -3rem;
-  margin-left: 50rem;
-}
-
-.t-shirtdiv {
-  height: none;
-  margin-top: -10rem;
-  margin-left: 60rem;
-}
-
-.t-shirt .t-shirtimg {
-  height: none;
-  margin-top: -1rem;
-  margin-left: 45rem;
-}
-
-.rectangulo-tshirt {
-  height: none;
-  margin-top: -1rem;
-  margin-left: 43rem;
-}
-
-.medidast-shirt {
-  height: none;
-  margin-top: -8rem;
-  margin-left: 61rem;
-}
-
-/* MAIN CONTACTO */
-.formulario {
-  width: 400px;
-  height: 30rem;
-  padding: 30px;
-  margin-top: 10rem;
-  margin-left: 18rem;
-  border-radius: 8px;
-  background-color: #cd96b8;
-}
-.formulario .tituloform {
-  color: #e516d1;
-}
-.formulario .name {
-  text-align: center;
-  padding-left: 5rem;
-}
-.formulario .email {
-  margin-top: 1rem;
-  text-align: center;
-  padding-left: 5rem;
-}
-.formulario .message {
-  margin-top: 2rem;
-  padding: 9rem;
-}
-.formulario .boton {
-  padding: 1rem;
-  color: #e516d1;
-  font-family: "Indie flower";
-  text-transform: uppercase;
-}
-
-header {
-  height: 35rem;
-}
-header .titulo-propiedades {
-  font-size: 14rem;
-}
-header .icons-head {
-  margin-top: 10rem;
-  height: 40px;
-}
-
-footer .pie-pagina {
-  margin-left: 40rem;
-  height: 4rem;
-}
-footer .pie-pagina .img-group {
-  margin-left: -38rem;
-}
-footer .pie-pagina .text-foot {
-  color: white;
-  margin-left: -32rem;
-  text-transform: uppercase;
-}
-
-/* MQ INDEX */
-main .texto-principal {
-  margin: 6rem;
-  margin-top: 10rem;
-  font-family: "Indie flower";
-}
-
-/* MQ GIRAS */
-.fecha-bsaires {
-  margin-top: -15rem;
-  margin-left: 80rem;
-}
-
-.fecha-cor {
-  margin-top: -8rem;
-  margin-left: 45rem;
-}
-
-.fecha-bcn {
-  margin-left: 90rem;
-}
-
-.fecha-vln {
-  margin-left: 60rem;
-  margin-top: -5rem;
-}
-
-.fecha-cadiz {
-  margin-top: -8rem;
-}
-
-/* MQ LANZAMIENTOS */
-.titulo-album {
-  margin-left: 60rem;
-}
-
-.albumimg {
-  margin-left: 57rem;
-  height: 30rem;
-}
-
-.downloadimg {
-  height: 5rem;
-  margin-top: -9rem;
-  margin-left: 63rem;
-}
-
-.jordanimg .lasjordan {
-  margin-top: -20rem;
-  font-family: "Indie flower";
-  font-size: 25px;
-  color: #e516d1;
-}
-.jordanimg .albumimg3 {
-  height: 20rem;
-}
-.jordanimg .albumimg3:hover {
-  width: 30rem;
-  height: 25rem;
-}
-
-.tepidoimg .tepido {
-  font-family: "Indie flower";
-  font-size: 25px;
-  color: #e516d1;
-  margin-top: -25rem;
-  margin-left: 105rem;
-}
-.tepidoimg .tepidoimg2 {
-  height: 20rem;
-  margin-bottom: 5rem;
-  margin-left: 95rem;
-}
-.tepidoimg .tepidoimg2:hover {
-  width: 30rem;
-  height: 25rem;
-}
-
-/* MQ SHOP */
-.linea-s .linea-search {
-  margin-left: 115rem;
-}
-
-.search .carrito {
-  margin-left: 130rem;
-}
-.search .text-store {
-  margin-left: 115rem;
-}
-.search .lupa-icon {
-  margin-left: 110rem;
-}
-
-.t-shirtdiv {
-  margin-top: 1rem;
-  margin-left: 115rem;
-}
-
-.t-shirt .t-shirtimg {
-  margin-top: 1rem;
-  margin-left: 99rem;
-}
-
-.rectangulo-tshirt {
-  margin-top: -2rem;
-  margin-left: 98rem;
-}
-
-.medidast-shirt {
-  margin-left: 117rem;
-}
-
-.divtriple {
-  margin-top: -10rem;
-  margin-left: 65rem;
-}
-
-.shirttriple .tripleshirt {
-  margin-top: 2rem;
-  margin-left: 48rem;
-}
-
-.rectangulo3 {
-  margin-top: -4rem;
-  margin-left: 48rem;
-}
-
-.medidastriple {
-  margin-top: -8rem;
-  margin-left: 67rem;
-}
-
-/* MQ CONTACTO */
-.formulario {
-  margin-top: 10rem;
-  margin-left: 42rem;
+@media (min-width: 768px) {
+  header {
+    height: 25rem;
+  }
+  header .titulo-propiedades {
+    font-size: 12rem;
+  }
+  header .icons-head {
+    display: flex;
+    margin-top: 4rem;
+    height: 30px;
+    flex-direction: row-reverse;
+  }
+  footer .pie-pagina {
+    margin-top: 2rem;
+    margin-left: 20rem;
+    height: 3rem;
+  }
+  footer .pie-pagina .img-group {
+    display: flex;
+    height: 3rem;
+    margin-top: 4.5rem;
+    margin-left: -30rem;
+  }
+  footer .pie-pagina .text-foot {
+    display: flex;
+    margin-top: -2.5rem;
+    margin-left: -25rem;
+  }
+  /* MQ INDEX */
+  main .texto-principal {
+    margin-top: 8rem;
+    font-size: 3rem;
+  }
+  /* MQ GIRAS */
+  .fecha-uy {
+    font-size: 3rem;
+    font-family: "Indie flower";
+    color: #e516d1;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-left: 6rem;
+  }
+  .fecha-cor {
+    font-size: 3rem;
+    font-family: "Indie flower";
+    color: #e516d1;
+    text-transform: uppercase;
+    margin-top: none;
+    margin-left: 25rem;
+  }
+  .fecha-bsaires {
+    font-size: 3rem;
+    font-family: "Indie flower";
+    color: #e516d1;
+    text-transform: uppercase;
+    margin-top: -23rem;
+    margin-left: 45rem;
+  }
+  .fecha-bcn {
+    font-size: 3rem;
+    font-family: "Indie flower";
+    color: #e516d1;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    margin-left: 2rem;
+  }
+  .fecha-vln {
+    font-size: 3rem;
+    font-family: "Indie flower";
+    color: #e516d1;
+    text-transform: uppercase;
+    margin-top: -5rem;
+    margin-left: 45rem;
+  }
+  .fecha-cadiz {
+    font-size: 3rem;
+    margin-top: -5rem;
+    margin-left: 20rem;
+  }
+  /* MAIN LANZAMIENTOS */
+  .titulo-album {
+    font-family: "Indie flower";
+    margin-left: 30rem;
+    font-size: 35px;
+  }
+  .albumimg {
+    margin-left: 28rem;
+  }
+  .albumimg .albumimg2 {
+    height: 20rem;
+  }
+  .downloadimg {
+    margin-left: 35rem;
+  }
+  .jordanimg .lasjordan {
+    margin-top: -7rem;
+  }
+  .tepidoimg .tepido {
+    margin-left: 60rem;
+  }
+  .tepidoimg .tepidoimg2 {
+    margin-left: 55rem;
+  }
+  /* MAIN SHOP */
+  .linea-s .linea-search {
+    display: flex;
+    width: 14rem;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 55rem;
+  }
+  .search {
+    height: 22px;
+  }
+  .search .carrito {
+    margin-top: -7rem;
+    margin-left: 70rem;
+  }
+  .search .text-store {
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Indie flower";
+    margin-top: -5rem;
+    margin-left: 55rem;
+    color: white;
+  }
+  .search .lupa-icon {
+    display: flex;
+    margin-top: -3rem;
+    margin-left: 50rem;
+  }
+  .t-shirtdiv {
+    height: none;
+    margin-top: -10rem;
+    margin-left: 60rem;
+  }
+  .t-shirt .t-shirtimg {
+    height: none;
+    margin-top: -1rem;
+    margin-left: 45rem;
+  }
+  .rectangulo-tshirt {
+    height: none;
+    margin-top: -1rem;
+    margin-left: 43rem;
+  }
+  .medidast-shirt {
+    height: none;
+    margin-top: -8rem;
+    margin-left: 61rem;
+  }
+  /* MAIN CONTACTO */
+  .formulario {
+    width: 400px;
+    height: 30rem;
+    padding: 30px;
+    margin-top: 10rem;
+    margin-left: 18rem;
+    border-radius: 8px;
+    background-color: #cd96b8;
+  }
+  .formulario .tituloform {
+    color: #e516d1;
+  }
+  .formulario .name {
+    text-align: center;
+    padding-left: 5rem;
+  }
+  .formulario .email {
+    margin-top: 1rem;
+    text-align: center;
+    padding-left: 5rem;
+  }
+  .formulario .message {
+    margin-top: 2rem;
+    padding: 9rem;
+  }
+  .formulario .boton {
+    padding: 1rem;
+    color: #e516d1;
+    font-family: "Indie flower";
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    height: 35rem;
+  }
+  header .titulo-propiedades {
+    font-size: 14rem;
+  }
+  header .icons-head {
+    margin-top: 10rem;
+    height: 40px;
+  }
+  footer .pie-pagina {
+    margin-left: 40rem;
+    height: 4rem;
+  }
+  footer .pie-pagina .img-group {
+    margin-left: -38rem;
+  }
+  footer .pie-pagina .text-foot {
+    color: white;
+    margin-left: -32rem;
+    text-transform: uppercase;
+  }
+  /* MQ INDEX */
+  main .texto-principal {
+    margin: 6rem;
+    margin-top: 10rem;
+    font-family: "Indie flower";
+  }
+  /* MQ GIRAS */
+  .fecha-bsaires {
+    margin-top: -15rem;
+    margin-left: 80rem;
+  }
+  .fecha-cor {
+    margin-top: -8rem;
+    margin-left: 45rem;
+  }
+  .fecha-bcn {
+    margin-left: 90rem;
+  }
+  .fecha-vln {
+    margin-left: 60rem;
+    margin-top: -5rem;
+  }
+  .fecha-cadiz {
+    margin-top: -8rem;
+  }
+  /* MQ LANZAMIENTOS */
+  .titulo-album {
+    margin-left: 60rem;
+  }
+  .albumimg {
+    margin-left: 57rem;
+    height: 30rem;
+  }
+  .downloadimg {
+    height: 5rem;
+    margin-top: -9rem;
+    margin-left: 63rem;
+  }
+  .jordanimg .lasjordan {
+    margin-top: -20rem;
+    font-family: "Indie flower";
+    font-size: 25px;
+    color: #e516d1;
+  }
+  .jordanimg .albumimg3 {
+    height: 20rem;
+  }
+  .jordanimg .albumimg3:hover {
+    width: 30rem;
+    height: 25rem;
+  }
+  .tepidoimg .tepido {
+    font-family: "Indie flower";
+    font-size: 25px;
+    color: #e516d1;
+    margin-top: -25rem;
+    margin-left: 105rem;
+  }
+  .tepidoimg .tepidoimg2 {
+    height: 20rem;
+    margin-bottom: 5rem;
+    margin-left: 95rem;
+  }
+  .tepidoimg .tepidoimg2:hover {
+    width: 30rem;
+    height: 25rem;
+  }
+  /* MQ SHOP */
+  .linea-s .linea-search {
+    margin-left: 115rem;
+  }
+  .search .carrito {
+    margin-left: 130rem;
+  }
+  .search .text-store {
+    margin-left: 115rem;
+  }
+  .search .lupa-icon {
+    margin-left: 110rem;
+  }
+  .t-shirtdiv {
+    margin-top: 1rem;
+    margin-left: 115rem;
+  }
+  .t-shirt .t-shirtimg {
+    margin-top: 1rem;
+    margin-left: 99rem;
+  }
+  .rectangulo-tshirt {
+    margin-top: -2rem;
+    margin-left: 98rem;
+  }
+  .medidast-shirt {
+    margin-left: 117rem;
+  }
+  .divtriple {
+    margin-top: -10rem;
+    margin-left: 65rem;
+  }
+  .shirttriple .tripleshirt {
+    margin-top: 2rem;
+    margin-left: 48rem;
+  }
+  .rectangulo3 {
+    margin-top: -4rem;
+    margin-left: 48rem;
+  }
+  .medidastriple {
+    margin-top: -8rem;
+    margin-left: 67rem;
+  }
+  /* MQ CONTACTO */
+  .formulario {
+    margin-top: 10rem;
+    margin-left: 42rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

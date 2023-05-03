@@ -1,0 +1,52 @@
+.titulo-album {
+  margin-top: 2rem;
+  margin-left: 15rem;
+  font-size: 30px;
+  font-family: $tipografia-titulos;
+  text-transform: uppercase;
+  color: white;
+}
+.albumimg {
+  margin-left: 13rem;
+  .albumimg2 {
+    height: 15rem;
+  }
+}
+.downloadimg {
+  @include fechas(17px, $tipografia-principal, white, uppercase, none, 18rem);
+  .download {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    height: 2rem;
+  }
+  .download1 {
+    margin-left: 4rem;
+  }
+}
+.jordanimg {
+  margin-top: 6rem;
+  margin-left: 3rem;
+  .lasjordan {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .albumimg3 {
+    height: 12rem;
+  }
+}
+.tepidoimg {
+  .tepido {
+    margin-top: -15rem;
+    margin-left: 30rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .tepidoimg2 {
+    height: 12rem;
+    margin-left: 25rem;
+  }
+}

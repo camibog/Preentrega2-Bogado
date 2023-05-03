@@ -1,0 +1,62 @@
+.fecha-uy {
+  @include fechas(
+    2rem,
+    $tipografia-principal,
+    $color-principal,
+    uppercase,
+    2rem,
+    2rem
+  );
+}
+.fecha-cor {
+  @include fechas(
+    2rem,
+    $tipografia-principal,
+    $color-principal,
+    uppercase,
+    none,
+    14rem
+  );
+}
+
+.fecha-bsaires {
+  @include fechas(
+    2rem,
+    $tipografia-principal,
+    $color-principal,
+    uppercase,
+    none,
+    30rem
+  );
+}
+.fecha-bcn {
+  @include fechas(
+    2rem,
+    $tipografia-principal,
+    $color-principal,
+    uppercase,
+    -5rem,
+    2rem
+  );
+}
+
+.fecha-vln {
+  @include fechas(
+    2rem,
+    $tipografia-principal,
+    $color-principal,
+    uppercase,
+    2rem,
+    20rem
+  );
+}
+.fecha-cadiz {
+  @include fechas(
+    2rem,
+    $tipografia-principal,
+    $color-principal,
+    uppercase,
+    none,
+    3rem
+  );
+}

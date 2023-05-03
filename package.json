@@ -1,0 +1,12 @@
+{
+  "name": "proyectotini",
+  "version": "1.0.0",
+  "description": "El proyecto esta enfocado en una fan page de Martina Stoessel \"Tini\" en el cual se pueden \r apreciar los conocimientos adquiridos en el curso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

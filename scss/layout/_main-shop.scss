@@ -1,0 +1,122 @@
+.linea-s {
+  .linea-search {
+    display: none;
+  }
+}
+.search {
+  height: 22px;
+  .carrito {
+    height: 22px;
+    margin-top: 1px;
+    margin-left: 42rem;
+  }
+  .text-store {
+    display: none;
+  }
+  .lupa-icon {
+    display: none;
+  }
+}
+.hoddie-div {
+  @include fechas(17px, $tipografia-principal, white, uppercase, 2px, 20rem);
+}
+.hoddie-img2 {
+  @include shop(14rem, -50px, 10px);
+}
+.rectangulo {
+  @include shop(16px, -18rem, 17rem);
+}
+.size {
+  @include fechas(15px, $tipografia-principal, black, uppercase, -11rem, 22rem);
+}
+.medidas {
+  @include shop(none, -70px, 19rem);
+  .medida-merch {
+    height: 22px;
+  }
+  .medida-merch2 {
+    height: 22px;
+  }
+  .medida-merch3 {
+    height: 22px;
+  }
+}
+.vector-merch {
+  display: none;
+}
+.vector {
+  display: none;
+}
+.t-shirtdiv {
+  @include fechas(17px, $tipografia-principal, white, uppercase, 4rem, 18rem);
+}
+.t-shirt {
+  .t-shirtimg {
+    @include shop(14rem, -2rem, 15px);
+  }
+}
+.rectangulo-tshirt {
+  .tshirt-rectangulo {
+    @include shop(16px, -20rem, 17rem);
+  }
+  .sizeshirt {
+    @include fechas(
+      15px,
+      $tipografia-principal,
+      black,
+      uppercase,
+      -12rem,
+      22rem
+    );
+  }
+}
+.medidast-shirt {
+  @include shop(none, -8rem, 19rem);
+  .medida-shirt1 {
+    height: 22px;
+  }
+  .medida-shirt2 {
+    height: 22px;
+  }
+  .medida-shirt3 {
+    height: 22px;
+  }
+}
+.vectorshirt {
+  display: none;
+}
+.vectorshirt2 {
+  display: none;
+}
+.divtriple {
+  @include fechas(17px, $tipografia-principal, white, uppercase, 6rem, 18rem);
+}
+.shirttriple {
+  .tripleshirt {
+    @include shop(14rem, -2rem, 15px);
+  }
+}
+.rectangulotriple {
+  @include shop(16px, -20rem, 17rem);
+}
+.rectext {
+  @include fechas(15px, $tipografia-principal, black, uppercase, -12rem, 22rem);
+}
+.medidastriple {
+  @include shop(none, -8rem, 19rem);
+  .medidatriple1 {
+    height: 20px;
+  }
+  .medidatriple2 {
+    height: 20px;
+  }
+  .medidatriple3 {
+    height: 20px;
+  }
+}
+.vectorimg3 {
+  display: none;
+}
+.vector3 {
+  display: none;
+}

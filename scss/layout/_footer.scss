@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  background-color: $background-principal;
+  height: 10rem;
+
+  .pie-pagina {
+    @include pie-pagina(flex, 2rem, 4rem, 8rem);
+  }
+
+  .img-group {
+    @include group(none, none, none);
+  }
+
+  .text-foot {
+    @include group(none, none, none);
+  }
+}

@@ -1,6 +1,6 @@
 header {
   grid-area: "header";
-  background-image: url(./../assets/img/tinihead2.jpg);
+  background-image: url(../assets/img/tinihead2.jpg);
   background-size: cover;
   h1 {
     @include titulo(6rem, $tipografia-titulos, $color-principal, uppercase);

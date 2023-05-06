@@ -19,6 +19,7 @@ header {
   grid-area: "header";
   background-image: url(../assets/img/tinihead2.jpg);
   background-size: cover;
+  height: auto;
 }
 header h1 {
   font-size: 6rem;
@@ -34,6 +35,7 @@ footer {
   display: flex;
   background-color: black;
   height: 10rem;
+  width: auto;
 }
 footer .pie-pagina {
   display: flex;
@@ -56,6 +58,7 @@ main {
   grid-area: "main";
   background-image: url(./../assets/img/tinimain.png);
   height: 50rem;
+  width: auto;
   background-size: contain;
 }
 main .texto-principal {

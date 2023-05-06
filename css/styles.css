@@ -161,11 +161,11 @@ main .img {
 
 .jordanimg {
   margin-top: 6rem;
-  margin-left: 3rem;
+  margin-left: 10px;
 }
 .jordanimg .lasjordan {
   margin-top: 1rem;
-  margin-left: 4rem;
+  margin-left: 5px;
   font-size: 17px;
   text-transform: uppercase;
   color: white;
@@ -176,14 +176,14 @@ main .img {
 
 .tepidoimg .tepido {
   margin-top: -15rem;
-  margin-left: 30rem;
+  margin-left: 28rem;
   font-size: 17px;
   text-transform: uppercase;
   color: white;
 }
 .tepidoimg .tepidoimg2 {
   height: 12rem;
-  margin-left: 25rem;
+  margin-left: 20.5rem;
 }
 
 .linea-s .linea-search {
@@ -196,7 +196,7 @@ main .img {
 .search .carrito {
   height: 22px;
   margin-top: 1px;
-  margin-left: 42rem;
+  margin-left: 35rem;
 }
 .search .text-store {
   display: none;

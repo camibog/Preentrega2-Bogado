@@ -1,8 +1,7 @@
 footer {
   display: flex;
-  background-color: $background-principal;
-  height: 10rem;
-  width: auto;
+  height: 15rem;
+  background-color: black;
 
   .pie-pagina {
     @include pie-pagina(flex, 2rem, 4rem, 8rem);

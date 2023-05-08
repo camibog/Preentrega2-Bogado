@@ -19,7 +19,7 @@ header {
   grid-area: "header";
   background-image: url(../assets/img/tinihead2.jpg);
   background-size: cover;
-  height: auto;
+  width: 100%;
 }
 header h1 {
   font-size: 6rem;
@@ -33,9 +33,8 @@ header .icons-head {
 
 footer {
   display: flex;
+  height: 15rem;
   background-color: black;
-  height: 10rem;
-  width: auto;
 }
 footer .pie-pagina {
   display: flex;
@@ -57,14 +56,13 @@ footer .text-foot {
 main {
   grid-area: "main";
   background-image: url(./../assets/img/tinimain.png);
-  height: 50rem;
-  width: auto;
+  width: 100%;
   background-size: contain;
 }
 main .texto-principal {
   text-align: center;
-  margin-top: 12rem;
-  font-size: 2rem;
+  margin-top: 4rem;
+  font-size: 2.5rem;
   font-family: "Oswald";
   color: #cc82c5;
 }

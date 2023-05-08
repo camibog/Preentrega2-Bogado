@@ -1,7 +1,7 @@
 main {
   grid-area: "main";
   background-image: url(./../assets/img/tinimain.png);
-  width: 100%;
+  max-width: 100%;
   background-size: contain;
   .texto-principal {
     @include texto-principal(center, 4rem, 2.5rem, "Oswald", $color-textoindex);

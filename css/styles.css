@@ -19,7 +19,7 @@ header {
   grid-area: "header";
   background-image: url(../assets/img/tinihead2.jpg);
   background-size: cover;
-  width: 100%;
+  max-width: auto;
 }
 header h1 {
   font-size: 6rem;
@@ -39,7 +39,7 @@ footer {
 footer .pie-pagina {
   display: flex;
   height: 2rem;
-  margin-top: 4rem;
+  margin-top: none;
   margin-left: 8rem;
 }
 footer .img-group {
@@ -56,7 +56,7 @@ footer .text-foot {
 main {
   grid-area: "main";
   background-image: url(./../assets/img/tinimain.png);
-  width: 100%;
+  max-width: 100%;
   background-size: contain;
 }
 main .texto-principal {
@@ -399,9 +399,6 @@ main .img {
 }
 
 @media (min-width: 768px) {
-  header {
-    height: 25rem;
-  }
   header .titulo-propiedades {
     font-size: 12rem;
   }
@@ -414,7 +411,6 @@ main .img {
   footer .pie-pagina {
     margin-top: 2rem;
     margin-left: 20rem;
-    height: 3rem;
   }
   footer .pie-pagina .img-group {
     display: flex;
@@ -585,18 +581,15 @@ main .img {
   }
 }
 @media (min-width: 1024px) {
-  header {
-    height: 35rem;
-  }
   header .titulo-propiedades {
     font-size: 14rem;
   }
   header .icons-head {
-    margin-top: 10rem;
+    margin-top: 20rem;
     height: 40px;
   }
   footer .pie-pagina {
-    margin-left: 40rem;
+    margin-left: 50rem;
     height: 4rem;
   }
   footer .pie-pagina .img-group {

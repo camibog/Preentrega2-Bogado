@@ -1,198 +1,68 @@
 @media (min-width: 768px) {
   header {
     .titulo-propiedades {
-      font-size: 12rem;
-    }
-    .icons-head {
-      display: flex;
-      margin-top: 4rem;
-      height: 30px;
-      flex-direction: row-reverse;
+      font-size: 9rem;
+      margin-top: 3rem;
+      margin-left: 45rem;
     }
   }
-  footer {
-    .pie-pagina {
-      margin-top: 2rem;
-      margin-left: 20rem;
-      .img-group {
-        display: flex;
-        height: 3rem;
-        margin-top: 4.5rem;
-        margin-left: -30rem;
-      }
-      .text-foot {
-        display: flex;
-        margin-top: -2.5rem;
-        margin-left: -25rem;
-      }
-    }
-  }
-
-  /* MQ INDEX */
+  /* MAIN INDEX */
   main {
     .texto-principal {
-      margin-top: 8rem;
-      font-size: 3rem;
+      font-size: 25px;
+      padding: 6rem;
     }
-  }
-
-  /* MQ GIRAS */
-  .fecha-uy {
-    @include fechas(
-      3rem,
-      $tipografia-principal,
-      $color-principal,
-      uppercase,
-      4rem,
-      6rem
-    );
-  }
-  .fecha-cor {
-    @include fechas(
-      3rem,
-      $tipografia-principal,
-      $color-principal,
-      uppercase,
-      none,
-      25rem
-    );
-  }
-  .fecha-bsaires {
-    @include fechas(
-      3rem,
-      $tipografia-principal,
-      $color-principal,
-      uppercase,
-      -23rem,
-      45rem
-    );
-  }
-  .fecha-bcn {
-    @include fechas(
-      3rem,
-      $tipografia-principal,
-      $color-principal,
-      uppercase,
-      10rem,
-      2rem
-    );
-  }
-  .fecha-vln {
-    @include fechas(
-      3rem,
-      $tipografia-principal,
-      $color-principal,
-      uppercase,
-      -5rem,
-      45rem
-    );
-  }
-  .fecha-cadiz {
-    font-size: 3rem;
-    margin-top: -5rem;
-    margin-left: 20rem;
-  }
-
-  /* MAIN LANZAMIENTOS */
-  .titulo-album {
-    font-family: "Indie flower";
-    margin-left: 30rem;
-    font-size: 35px;
-  }
-  .albumimg {
-    margin-left: 28rem;
-    .albumimg2 {
-      height: 20rem;
+    /* MAIN GIRAS */
+    .fecha-cor {
+      margin-left: 25rem;
     }
-  }
-  .downloadimg {
-    margin-left: 35rem;
-  }
-  .jordanimg {
-    .lasjordan {
-      margin-top: -7rem;
+    .fecha-bsaires {
+      margin-left: 45rem;
     }
-  }
-  .tepidoimg {
-    .tepido {
+    .fecha-vln {
+      margin-left: 28rem;
+    }
+    .fecha-cadiz {
       margin-left: 60rem;
     }
-    .tepidoimg2 {
-      margin-left: 55rem;
+    /* MAIN LANZAMIENTOS */
+    .titulo-album {
+      font-size: 3rem;
+      margin-left: 35rem;
     }
-  }
-
-  /* MAIN SHOP */
-  .linea-s {
-    .linea-search {
-      display: flex;
-      width: 14rem;
-      color: white;
-      margin-top: 3rem;
-      margin-left: 55rem;
+    .albumimg2 {
+      height: 25rem;
+      margin-left: 25rem;
     }
-  }
-  .search {
-    height: 22px;
-    .carrito {
-      margin-top: -7rem;
-      margin-left: 70rem;
+    .download {
+      height: 5rem;
+      margin-left: 35rem;
     }
-    .text-store {
-      display: flex;
-      font-size: 15px;
+    .download-1 {
       text-transform: uppercase;
-      font-family: "Indie flower";
-      margin-top: -5rem;
-      margin-left: 55rem;
-      color: white;
+      font-size: 2rem;
+      margin-left: 32rem;
     }
-    .lupa-icon {
-      display: flex;
-      margin-top: -3rem;
+    .lasjordan {
+      margin-left: 12rem;
+    }
+    .jordanimg3 {
+      height: 20rem;
+      margin-left: 2rem;
+    }
+    .tepido {
       margin-left: 50rem;
     }
-  }
-  .t-shirtdiv {
-    @include shop(none, -10rem, 60rem);
-  }
-  .t-shirt {
-    .t-shirtimg {
-      @include shop(none, -1rem, 45rem);
+    .tepidoimg2 {
+      height: 20rem;
+      margin-left: 40rem;
     }
-  }
-  .rectangulo-tshirt {
-    @include shop(none, -1rem, 43rem);
-  }
-  .medidast-shirt {
-    @include shop(none, -8rem, 61rem);
   }
 
-  /* MAIN CONTACTO */
-
-  .formulario {
-    @include form(400px, 30rem, 30px, 10rem, 18rem, 8px, $colorform);
-    .tituloform {
-      color: $color-principal;
-    }
-    .name {
-      text-align: center;
-      padding-left: 5rem;
-    }
-    .email {
-      margin-top: 1rem;
-      text-align: center;
-      padding-left: 5rem;
-    }
-    .message {
-      margin-top: 2rem;
-      padding: 9rem;
-    }
-    .boton {
-      padding: 1rem;
-      color: $color-principal;
-      font-family: $tipografia-principal;
-      text-transform: uppercase;
+  /* FOOTER */
+  footer {
+    img {
+      height: 3rem;
     }
   }
 }

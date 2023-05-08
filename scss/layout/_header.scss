@@ -1,13 +1,16 @@
 header {
-  grid-area: "header";
-  background-image: url(../assets/img/tinihead2.jpg);
+  background-image: url(../../assets/img/tinihead2.jpg);
   background-size: cover;
-  max-width: auto;
-
-  h1 {
-    @include titulo(6rem, $tipografia-titulos, $color-principal, uppercase);
-  }
+  height: auto;
   .icons-head {
     display: none;
+  }
+  .titulo-propiedades {
+    font-family: "Oswald";
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: $color-principal;
+    justify-content: center;
+    margin-bottom: 0;
   }
 }

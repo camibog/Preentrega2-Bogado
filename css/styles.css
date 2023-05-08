@@ -8,713 +8,276 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  display: grid;
-  grid-template-rows: auto, 1fr, auto;
-  grid-template-columns: 1fr;
-  grid-template-areas: "header", "main", "footer";
-}
-
 header {
-  grid-area: "header";
-  background-image: url(../assets/img/tinihead2.jpg);
+  background-image: url(../../assets/img/tinihead2.jpg);
   background-size: cover;
-  max-width: auto;
-}
-header h1 {
-  font-size: 6rem;
-  font-family: "Oswald";
-  color: #e516d1;
-  text-transform: uppercase;
+  height: auto;
 }
 header .icons-head {
   display: none;
 }
+header .titulo-propiedades {
+  font-family: "Oswald";
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #e516d1;
+  justify-content: center;
+  margin-bottom: 0;
+}
 
 footer {
-  display: flex;
-  height: 15rem;
   background-color: black;
 }
-footer .pie-pagina {
+footer .icons-footer {
   display: flex;
+  justify-content: center;
+  padding: 10rem;
+}
+footer .icons-footer img {
   height: 2rem;
-  margin-top: none;
-  margin-left: 8rem;
 }
-footer .img-group {
+footer .icons-footer .seccion-group {
   display: none;
-  margin-left: none;
-  margin-top: none;
-}
-footer .text-foot {
-  display: none;
-  margin-left: none;
-  margin-top: none;
 }
 
 main {
-  grid-area: "main";
-  background-image: url(./../assets/img/tinimain.png);
-  max-width: 100%;
+  background-image: url(../../assets/img/tinimain.png);
   background-size: contain;
+  height: 100%;
+  width: 100%;
 }
 main .texto-principal {
-  text-align: center;
-  margin-top: 4rem;
-  font-size: 2.5rem;
   font-family: "Oswald";
-  color: #cc82c5;
-  padding: 3rem;
-}
-main .text {
-  display: none;
-}
-main .img {
-  display: none;
+  font-size: 17px;
+  text-align: center;
+  color: #e516d1;
+  padding: 5rem;
 }
 
 .fecha-uy {
   font-size: 2rem;
-  font-family: "Indie flower";
   color: #e516d1;
   text-transform: uppercase;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 .fecha-cor {
   font-size: 2rem;
-  font-family: "Indie flower";
   color: #e516d1;
   text-transform: uppercase;
-  margin-top: none;
-  margin-left: 14rem;
+  padding-top: 1rem;
+  margin-left: 12rem;
 }
 
 .fecha-bsaires {
   font-size: 2rem;
-  font-family: "Indie flower";
   color: #e516d1;
   text-transform: uppercase;
-  margin-top: none;
-  margin-left: 30rem;
+  padding-top: 1rem;
+  margin-left: 25rem;
 }
 
 .fecha-bcn {
   font-size: 2rem;
-  font-family: "Indie flower";
   color: #e516d1;
   text-transform: uppercase;
-  margin-top: -5rem;
-  margin-left: 2rem;
+  margin-top: -8rem;
+  margin-left: 5rem;
 }
 
 .fecha-vln {
   font-size: 2rem;
-  font-family: "Indie flower";
   color: #e516d1;
   text-transform: uppercase;
-  margin-top: 2rem;
-  margin-left: 20rem;
+  margin-top: 1rem;
+  margin-left: 15rem;
 }
 
 .fecha-cadiz {
   font-size: 2rem;
-  font-family: "Indie flower";
   color: #e516d1;
   text-transform: uppercase;
-  margin-top: none;
-  margin-left: 3rem;
+  margin-left: 32rem;
+}
+.fecha-cadiz .cadiz {
+  margin-bottom: 0;
 }
 
 .titulo-album {
-  margin-top: 2rem;
+  padding-top: 2rem;
   margin-left: 15rem;
-  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Oswald";
+}
+
+.albumimg2 {
+  height: 16rem;
+  margin-left: 10rem;
+}
+
+.download {
+  height: 3rem;
+  margin-left: 17rem;
+  padding-top: 1rem;
+}
+
+.download-1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+  margin-left: 16rem;
+}
+
+.lasjordan {
+  margin-left: 6rem;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Oswald";
+}
+
+.jordanimg3 {
+  height: 12rem;
+}
+
+.tepido {
+  margin-top: 2rem;
+  margin-left: 25rem;
+  color: white;
   font-family: "Oswald";
   text-transform: uppercase;
-  color: white;
 }
 
-.albumimg {
-  margin-left: 13rem;
-}
-.albumimg .albumimg2 {
-  height: 15rem;
-}
-
-.downloadimg {
-  font-size: 17px;
-  font-family: "Indie flower";
-  color: white;
-  text-transform: uppercase;
-  margin-top: none;
-  margin-left: 18rem;
-}
-.downloadimg .download {
-  margin-top: 1rem;
-  margin-left: 3rem;
-  height: 2rem;
-}
-.downloadimg .download1 {
-  margin-left: 4rem;
-}
-
-.jordanimg {
-  margin-top: 6rem;
-  margin-left: 10px;
-}
-.jordanimg .lasjordan {
-  margin-top: 1rem;
-  margin-left: 5px;
-  font-size: 17px;
-  text-transform: uppercase;
-  color: white;
-}
-.jordanimg .albumimg3 {
+.tepidoimg2 {
   height: 12rem;
-}
-
-.tepidoimg .tepido {
-  margin-top: -15rem;
-  margin-left: 28rem;
-  font-size: 17px;
-  text-transform: uppercase;
-  color: white;
-}
-.tepidoimg .tepidoimg2 {
-  height: 12rem;
-  margin-left: 20.5rem;
-}
-
-.linea-s .linea-search {
-  display: none;
-}
-
-.search {
-  height: 22px;
-}
-.search .carrito {
-  height: 22px;
-  margin-top: 1px;
-  margin-left: 35rem;
-}
-.search .text-store {
-  display: none;
-}
-.search .lupa-icon {
-  display: none;
-}
-
-.hoddie-div {
-  font-size: 17px;
-  font-family: "Indie flower";
-  color: white;
-  text-transform: uppercase;
-  margin-top: 2px;
   margin-left: 20rem;
-}
-
-.hoddie-img2 {
-  height: 14rem;
-  margin-top: -50px;
-  margin-left: 10px;
-}
-
-.rectangulo {
-  height: 16px;
-  margin-top: -18rem;
-  margin-left: 17rem;
-}
-
-.size {
-  font-size: 15px;
-  font-family: "Indie flower";
-  color: black;
-  text-transform: uppercase;
-  margin-top: -11rem;
-  margin-left: 22rem;
-}
-
-.medidas {
-  height: none;
-  margin-top: -70px;
-  margin-left: 19rem;
-}
-.medidas .medida-merch {
-  height: 22px;
-}
-.medidas .medida-merch2 {
-  height: 22px;
-}
-.medidas .medida-merch3 {
-  height: 22px;
-}
-
-.vector-merch {
-  display: none;
-}
-
-.vector {
-  display: none;
-}
-
-.t-shirtdiv {
-  font-size: 17px;
-  font-family: "Indie flower";
-  color: white;
-  text-transform: uppercase;
-  margin-top: 4rem;
-  margin-left: 18rem;
-}
-
-.t-shirt .t-shirtimg {
-  height: 14rem;
-  margin-top: -2rem;
-  margin-left: 15px;
-}
-
-.rectangulo-tshirt .tshirt-rectangulo {
-  height: 16px;
-  margin-top: -20rem;
-  margin-left: 17rem;
-}
-.rectangulo-tshirt .sizeshirt {
-  font-size: 15px;
-  font-family: "Indie flower";
-  color: black;
-  text-transform: uppercase;
-  margin-top: -12rem;
-  margin-left: 22rem;
-}
-
-.medidast-shirt {
-  height: none;
-  margin-top: -8rem;
-  margin-left: 19rem;
-}
-.medidast-shirt .medida-shirt1 {
-  height: 22px;
-}
-.medidast-shirt .medida-shirt2 {
-  height: 22px;
-}
-.medidast-shirt .medida-shirt3 {
-  height: 22px;
-}
-
-.vectorshirt {
-  display: none;
-}
-
-.vectorshirt2 {
-  display: none;
-}
-
-.divtriple {
-  font-size: 17px;
-  font-family: "Indie flower";
-  color: white;
-  text-transform: uppercase;
-  margin-top: 6rem;
-  margin-left: 18rem;
-}
-
-.shirttriple .tripleshirt {
-  height: 14rem;
-  margin-top: -2rem;
-  margin-left: 15px;
-}
-
-.rectangulotriple {
-  height: 16px;
-  margin-top: -20rem;
-  margin-left: 17rem;
-}
-
-.rectext {
-  font-size: 15px;
-  font-family: "Indie flower";
-  color: black;
-  text-transform: uppercase;
-  margin-top: -12rem;
-  margin-left: 22rem;
-}
-
-.medidastriple {
-  height: none;
-  margin-top: -8rem;
-  margin-left: 19rem;
-}
-.medidastriple .medidatriple1 {
-  height: 20px;
-}
-.medidastriple .medidatriple2 {
-  height: 20px;
-}
-.medidastriple .medidatriple3 {
-  height: 20px;
-}
-
-.vectorimg3 {
-  display: none;
-}
-
-.vector3 {
-  display: none;
-}
-
-.formulario {
-  width: 300px;
-  height: 20rem;
-  padding: 20px;
-  margin-top: 15rem;
-  margin-left: 6rem;
-  border-radius: 5px;
-  background-color: #cd96b8;
-}
-.formulario .tituloform {
-  margin-top: -2rem;
-  text-align: center;
-  font-family: "Indie flower";
-  text-transform: uppercase;
-  color: white;
-}
-.formulario .name {
-  text-align: center;
-  font-family: "Indie flower";
-  text-transform: uppercase;
-}
-.formulario .email {
-  text-align: center;
-  font-family: "Indie flower";
-  text-transform: uppercase;
-}
-.formulario .message {
-  margin-top: 1rem;
-  padding: 5rem;
-  font-family: "Indie flower";
-  text-transform: uppercase;
+  padding-top: -18rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
   header .titulo-propiedades {
-    font-size: 12rem;
+    font-size: 9rem;
+    margin-top: 3rem;
+    margin-left: 45rem;
   }
-  header .icons-head {
-    display: flex;
-    margin-top: 4rem;
-    height: 30px;
-    flex-direction: row-reverse;
+  /* MAIN INDEX */
+  main {
+    /* MAIN GIRAS */
+    /* MAIN LANZAMIENTOS */
   }
-  footer .pie-pagina {
-    margin-top: 2rem;
-    margin-left: 20rem;
-  }
-  footer .pie-pagina .img-group {
-    display: flex;
-    height: 3rem;
-    margin-top: 4.5rem;
-    margin-left: -30rem;
-  }
-  footer .pie-pagina .text-foot {
-    display: flex;
-    margin-top: -2.5rem;
-    margin-left: -25rem;
-  }
-  /* MQ INDEX */
   main .texto-principal {
-    margin-top: 8rem;
-    font-size: 3rem;
+    font-size: 25px;
+    padding: 6rem;
   }
-  /* MQ GIRAS */
-  .fecha-uy {
-    font-size: 3rem;
-    font-family: "Indie flower";
-    color: #e516d1;
-    text-transform: uppercase;
-    margin-top: 4rem;
-    margin-left: 6rem;
-  }
-  .fecha-cor {
-    font-size: 3rem;
-    font-family: "Indie flower";
-    color: #e516d1;
-    text-transform: uppercase;
-    margin-top: none;
+  main .fecha-cor {
     margin-left: 25rem;
   }
-  .fecha-bsaires {
-    font-size: 3rem;
-    font-family: "Indie flower";
-    color: #e516d1;
-    text-transform: uppercase;
-    margin-top: -23rem;
+  main .fecha-bsaires {
     margin-left: 45rem;
   }
-  .fecha-bcn {
-    font-size: 3rem;
-    font-family: "Indie flower";
-    color: #e516d1;
-    text-transform: uppercase;
-    margin-top: 10rem;
-    margin-left: 2rem;
-  }
-  .fecha-vln {
-    font-size: 3rem;
-    font-family: "Indie flower";
-    color: #e516d1;
-    text-transform: uppercase;
-    margin-top: -5rem;
-    margin-left: 45rem;
-  }
-  .fecha-cadiz {
-    font-size: 3rem;
-    margin-top: -5rem;
-    margin-left: 20rem;
-  }
-  /* MAIN LANZAMIENTOS */
-  .titulo-album {
-    font-family: "Indie flower";
-    margin-left: 30rem;
-    font-size: 35px;
-  }
-  .albumimg {
+  main .fecha-vln {
     margin-left: 28rem;
   }
-  .albumimg .albumimg2 {
-    height: 20rem;
+  main .fecha-cadiz {
+    margin-left: 60rem;
   }
-  .downloadimg {
+  main .titulo-album {
+    font-size: 3rem;
     margin-left: 35rem;
   }
-  .jordanimg .lasjordan {
-    margin-top: -7rem;
+  main .albumimg2 {
+    height: 25rem;
+    margin-left: 25rem;
   }
-  .tepidoimg .tepido {
-    margin-left: 60rem;
+  main .download {
+    height: 5rem;
+    margin-left: 35rem;
   }
-  .tepidoimg .tepidoimg2 {
-    margin-left: 55rem;
-  }
-  /* MAIN SHOP */
-  .linea-s .linea-search {
-    display: flex;
-    width: 14rem;
-    color: white;
-    margin-top: 3rem;
-    margin-left: 55rem;
-  }
-  .search {
-    height: 22px;
-  }
-  .search .carrito {
-    margin-top: -7rem;
-    margin-left: 70rem;
-  }
-  .search .text-store {
-    display: flex;
-    font-size: 15px;
+  main .download-1 {
     text-transform: uppercase;
-    font-family: "Indie flower";
-    margin-top: -5rem;
-    margin-left: 55rem;
-    color: white;
+    font-size: 2rem;
+    margin-left: 32rem;
   }
-  .search .lupa-icon {
-    display: flex;
-    margin-top: -3rem;
+  main .lasjordan {
+    margin-left: 12rem;
+  }
+  main .jordanimg3 {
+    height: 20rem;
+    margin-left: 2rem;
+  }
+  main .tepido {
     margin-left: 50rem;
   }
-  .t-shirtdiv {
-    height: none;
-    margin-top: -10rem;
-    margin-left: 60rem;
+  main .tepidoimg2 {
+    height: 20rem;
+    margin-left: 40rem;
   }
-  .t-shirt .t-shirtimg {
-    height: none;
-    margin-top: -1rem;
-    margin-left: 45rem;
-  }
-  .rectangulo-tshirt {
-    height: none;
-    margin-top: -1rem;
-    margin-left: 43rem;
-  }
-  .medidast-shirt {
-    height: none;
-    margin-top: -8rem;
-    margin-left: 61rem;
-  }
-  /* MAIN CONTACTO */
-  .formulario {
-    width: 400px;
-    height: 30rem;
-    padding: 30px;
-    margin-top: 10rem;
-    margin-left: 18rem;
-    border-radius: 8px;
-    background-color: #cd96b8;
-  }
-  .formulario .tituloform {
-    color: #e516d1;
-  }
-  .formulario .name {
-    text-align: center;
-    padding-left: 5rem;
-  }
-  .formulario .email {
-    margin-top: 1rem;
-    text-align: center;
-    padding-left: 5rem;
-  }
-  .formulario .message {
-    margin-top: 2rem;
-    padding: 9rem;
-  }
-  .formulario .boton {
-    padding: 1rem;
-    color: #e516d1;
-    font-family: "Indie flower";
-    text-transform: uppercase;
+  /* FOOTER */
+  footer img {
+    height: 3rem;
   }
 }
 @media (min-width: 1024px) {
-  header .titulo-propiedades {
-    font-size: 14rem;
+  /* MAIN INDEX */
+  main {
+    /* MAIN GIRAS */
+    /* MAIN LANZAMIENTOS */
   }
-  header .icons-head {
-    margin-top: 20rem;
-    height: 40px;
-  }
-  footer .pie-pagina {
-    margin-left: 50rem;
-    height: 4rem;
-  }
-  footer .pie-pagina .img-group {
-    margin-left: -38rem;
-  }
-  footer .pie-pagina .text-foot {
-    color: white;
-    margin-left: -32rem;
-    text-transform: uppercase;
-  }
-  /* MQ INDEX */
   main .texto-principal {
-    margin: 6rem;
-    margin-top: 10rem;
+    font-size: 3rem;
     font-family: "Indie flower";
   }
-  /* MQ GIRAS */
-  .fecha-bsaires {
-    margin-top: -15rem;
+  main .fecha-uy {
+    margin-left: 15rem;
+  }
+  main .fecha-cor {
+    margin-left: 85rem;
+  }
+  main .fecha-bsaires {
+    margin-top: -10rem;
+    margin-left: 50rem;
+  }
+  main .fecha-cadiz {
+    margin-top: -9rem;
+    margin-left: 70rem;
+  }
+  main .fecha-bcn {
+    margin-top: 4rem;
+  }
+  main .titulo-album {
+    margin-left: 50rem;
+  }
+  main .albumimg2 {
+    margin-left: 43rem;
+  }
+  main .albumimg2:hover {
+    height: 40rem;
+  }
+  main .download {
+    margin-left: 52rem;
+  }
+  main .download-1 {
+    margin-left: 49rem;
+  }
+  main .jordanimg3:hover {
+    height: 25rem;
+  }
+  main .tepido {
     margin-left: 80rem;
   }
-  .fecha-cor {
-    margin-top: -8rem;
-    margin-left: 45rem;
+  main .tepidoimg2 {
+    margin-left: 70rem;
   }
-  .fecha-bcn {
-    margin-left: 90rem;
-  }
-  .fecha-vln {
-    margin-left: 60rem;
-    margin-top: -5rem;
-  }
-  .fecha-cadiz {
-    margin-top: -8rem;
-  }
-  /* MQ LANZAMIENTOS */
-  .titulo-album {
-    margin-left: 60rem;
-  }
-  .albumimg {
-    margin-left: 57rem;
-    height: 30rem;
-  }
-  .downloadimg {
-    height: 5rem;
-    margin-top: -9rem;
-    margin-left: 63rem;
-  }
-  .jordanimg .lasjordan {
-    margin-top: -20rem;
-    font-family: "Indie flower";
-    font-size: 25px;
-    color: #e516d1;
-  }
-  .jordanimg .albumimg3 {
-    height: 20rem;
-  }
-  .jordanimg .albumimg3:hover {
-    width: 30rem;
+  main .tepidoimg2:hover {
     height: 25rem;
   }
-  .tepidoimg .tepido {
-    font-family: "Indie flower";
-    font-size: 25px;
-    color: #e516d1;
-    margin-top: -25rem;
-    margin-left: 105rem;
+  footer {
+    height: 100%;
   }
-  .tepidoimg .tepidoimg2 {
-    height: 20rem;
-    margin-bottom: 5rem;
-    margin-left: 95rem;
-  }
-  .tepidoimg .tepidoimg2:hover {
-    width: 30rem;
-    height: 25rem;
-  }
-  /* MQ SHOP */
-  .linea-s .linea-search {
-    margin-left: 115rem;
-  }
-  .search .carrito {
-    margin-left: 130rem;
-  }
-  .search .text-store {
-    margin-left: 115rem;
-  }
-  .search .lupa-icon {
-    margin-left: 110rem;
-  }
-  .t-shirtdiv {
-    margin-top: 1rem;
-    margin-left: 115rem;
-  }
-  .t-shirt .t-shirtimg {
-    margin-top: 1rem;
-    margin-left: 99rem;
-  }
-  .rectangulo-tshirt {
-    margin-top: -2rem;
-    margin-left: 98rem;
-  }
-  .medidast-shirt {
-    margin-left: 117rem;
-  }
-  .divtriple {
-    margin-top: -10rem;
-    margin-left: 65rem;
-  }
-  .shirttriple .tripleshirt {
-    margin-top: 2rem;
-    margin-left: 48rem;
-  }
-  .rectangulo3 {
-    margin-top: -4rem;
-    margin-left: 48rem;
-  }
-  .medidastriple {
-    margin-top: -8rem;
-    margin-left: 67rem;
-  }
-  /* MQ CONTACTO */
-  .formulario {
-    margin-top: 10rem;
-    margin-left: 42rem;
+  footer img {
+    height: 6rem;
   }
 }
 

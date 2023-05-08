@@ -1,62 +1,44 @@
 .fecha-uy {
-  @include fechas(
-    2rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    2rem,
-    2rem
-  );
+  font-size: 2rem;
+  color: $color-principal;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 .fecha-cor {
-  @include fechas(
-    2rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    none,
-    14rem
-  );
+  font-size: 2rem;
+  color: $color-principal;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  margin-left: 12rem;
 }
-
 .fecha-bsaires {
-  @include fechas(
-    2rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    none,
-    30rem
-  );
+  font-size: 2rem;
+  color: $color-principal;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  margin-left: 25rem;
 }
 .fecha-bcn {
-  @include fechas(
-    2rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    -5rem,
-    2rem
-  );
+  font-size: 2rem;
+  color: $color-principal;
+  text-transform: uppercase;
+  margin-top: -8rem;
+  margin-left: 5rem;
 }
-
 .fecha-vln {
-  @include fechas(
-    2rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    2rem,
-    20rem
-  );
+  font-size: 2rem;
+  color: $color-principal;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 15rem;
 }
 .fecha-cadiz {
-  @include fechas(
-    2rem,
-    $tipografia-principal,
-    $color-principal,
-    uppercase,
-    none,
-    3rem
-  );
+  font-size: 2rem;
+  color: $color-principal;
+  text-transform: uppercase;
+  margin-left: 32rem;
+  .cadiz {
+    margin-bottom: 0;
+  }
 }

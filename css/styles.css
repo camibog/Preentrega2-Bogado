@@ -11,7 +11,7 @@ html {
 header {
   background-image: url(./../assets/img/tinihead2.jpg);
   background-size: cover;
-  height: auto;
+  height: 23rem;
 }
 header .icons-head {
   display: none;
@@ -43,117 +43,87 @@ footer .icons-footer .seccion-group {
 main {
   background-image: url(./../assets/img/tinimain.png);
   background-size: contain;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 main .texto-principal {
   font-family: "Oswald";
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
   color: #e516d1;
   padding: 5rem;
 }
 
-.fecha-uy {
-  font-size: 2rem;
-  color: #e516d1;
-  text-transform: uppercase;
-  padding-top: 2rem;
-  padding-left: 2rem;
+.main-giras {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
 }
-
-.fecha-cor {
-  font-size: 2rem;
-  color: #e516d1;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  margin-left: 12rem;
-}
-
-.fecha-bsaires {
-  font-size: 2rem;
-  color: #e516d1;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  margin-left: 25rem;
-}
-
-.fecha-bcn {
-  font-size: 2rem;
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: -8rem;
-  margin-left: 5rem;
-}
-
-.fecha-vln {
-  font-size: 2rem;
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-top: 1rem;
-  margin-left: 15rem;
-}
-
-.fecha-cadiz {
-  font-size: 2rem;
-  color: #e516d1;
-  text-transform: uppercase;
-  margin-left: 32rem;
-}
-.fecha-cadiz .cadiz {
-  margin-bottom: 0;
-}
-
-.titulo-album {
-  padding-top: 2rem;
-  margin-left: 15rem;
-  text-transform: uppercase;
-  color: white;
-  font-family: "Oswald";
-}
-
-.albumimg2 {
-  height: 16rem;
-  margin-left: 10rem;
-}
-
-.download {
-  height: 3rem;
-  margin-left: 17rem;
-  padding-top: 1rem;
-}
-
-.download-1 {
-  text-transform: uppercase;
-  color: white;
-  font-size: 1rem;
-  margin-left: 16rem;
-}
-
-.lasjordan {
-  margin-left: 6rem;
-  text-transform: uppercase;
-  color: white;
-  font-family: "Oswald";
-}
-
-.jordanimg3 {
-  height: 12rem;
-}
-
-.tepido {
+.main-giras .fecha-uy {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-items: flex-start;
   margin-top: 2rem;
-  margin-left: 25rem;
-  color: white;
-  font-family: "Oswald";
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: #e516d1;
   text-transform: uppercase;
 }
+.main-giras .fecha-bsaires {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-items: flex-start;
+  font-size: 2rem;
+  color: #e516d1;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.main-giras .fecha-vln {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-items: flex-end;
+  font-size: 2rem;
+  color: #e516d1;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.main-giras .fecha-cor {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: flex-start;
+  font-size: 2rem;
+  color: #e516d1;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.main-giras .fecha-cadiz {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: flex-end;
+  font-size: 2rem;
+  color: #e516d1;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.main-giras .fecha-bcn {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-items: flex-end;
+  font-size: 2rem;
+  color: #e516d1;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
 
-.tepidoimg2 {
-  height: 12rem;
-  margin-left: 20rem;
-  padding-top: -18rem;
-  margin-bottom: 1rem;
+.main-lanzamientos {
+  display: block;
+}
+.main-lanzamientos img {
+  height: 20rem;
+}
+.main-lanzamientos .album {
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -165,86 +135,81 @@ main .texto-principal {
   /* MAIN INDEX */
   main {
     /* MAIN GIRAS */
-    /* MAIN LANZAMIENTOS */
   }
   main .texto-principal {
     font-size: 25px;
     padding: 6rem;
   }
-  main .fecha-cor {
-    margin-left: 25rem;
+  main .main-giras {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
   }
-  main .fecha-bsaires {
-    margin-left: 45rem;
+  /* MAIN LANZAMIENTOS */
+  .main-lanzamientos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
   }
-  main .fecha-vln {
-    margin-left: 28rem;
+  .main-lanzamientos .album {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: block;
   }
-  main .fecha-cadiz {
-    margin-left: 60rem;
+  .main-lanzamientos .album .img-album {
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    align-items: center;
   }
-  main .titulo-album {
-    font-size: 3rem;
-    margin-left: 35rem;
-  }
-  main .albumimg2 {
-    height: 25rem;
-    margin-left: 25rem;
-  }
-  main .download {
+  .main-lanzamientos .album .img-dwn {
+    display: flex;
+    justify-content: center;
     height: 5rem;
-    margin-left: 35rem;
   }
-  main .download-1 {
-    text-transform: uppercase;
-    font-size: 2rem;
-    margin-left: 32rem;
+  .main-lanzamientos .album h3 {
+    color: white;
+    text-align: center;
   }
-  main .lasjordan {
-    margin-left: 12rem;
+  .main-lanzamientos .jordan {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: block;
   }
-  main .jordanimg3 {
+  .main-lanzamientos .jordan .img-jordan {
     height: 20rem;
-    margin-left: 2rem;
+    width: 25rem;
   }
-  main .tepido {
-    margin-left: 50rem;
+  .main-lanzamientos .jordan h3 {
+    color: white;
+    text-align: center;
   }
-  main .tepidoimg2 {
+  .main-lanzamientos .te-pido {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: block;
+  }
+  .main-lanzamientos .te-pido .img-pido {
     height: 20rem;
-    margin-left: 40rem;
+    width: 25rem;
+  }
+  .main-lanzamientos .te-pido h3 {
+    color: white;
+    text-align: center;
   }
   /* FOOTER */
-  footer img {
-    height: 3rem;
+  footer .icons-footer img {
+    height: 5rem;
   }
 }
 @media (min-width: 1024px) {
   /* MAIN INDEX */
   main {
-    /* MAIN GIRAS */
     /* MAIN LANZAMIENTOS */
   }
   main .texto-principal {
     font-size: 3rem;
     font-family: "Indie flower";
-  }
-  main .fecha-uy {
-    margin-left: 15rem;
-  }
-  main .fecha-cor {
-    margin-left: 85rem;
-  }
-  main .fecha-bsaires {
-    margin-top: -10rem;
-    margin-left: 50rem;
-  }
-  main .fecha-cadiz {
-    margin-top: -9rem;
-    margin-left: 70rem;
-  }
-  main .fecha-bcn {
-    margin-top: 4rem;
   }
   main .titulo-album {
     margin-left: 50rem;
@@ -273,10 +238,7 @@ main .texto-principal {
   main .tepidoimg2:hover {
     height: 25rem;
   }
-  footer {
-    height: 100%;
-  }
-  footer img {
+  footer .icons-footer img {
     height: 6rem;
   }
 }

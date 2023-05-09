@@ -1,44 +1,61 @@
-.fecha-uy {
-  font-size: 2rem;
-  color: $color-principal;
-  text-transform: uppercase;
-  padding-top: 2rem;
-  padding-left: 2rem;
-}
-.fecha-cor {
-  font-size: 2rem;
-  color: $color-principal;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  margin-left: 12rem;
-}
-.fecha-bsaires {
-  font-size: 2rem;
-  color: $color-principal;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  margin-left: 25rem;
-}
-.fecha-bcn {
-  font-size: 2rem;
-  color: $color-principal;
-  text-transform: uppercase;
-  margin-top: -8rem;
-  margin-left: 5rem;
-}
-.fecha-vln {
-  font-size: 2rem;
-  color: $color-principal;
-  text-transform: uppercase;
-  margin-top: 1rem;
-  margin-left: 15rem;
-}
-.fecha-cadiz {
-  font-size: 2rem;
-  color: $color-principal;
-  text-transform: uppercase;
-  margin-left: 32rem;
-  .cadiz {
-    margin-bottom: 0;
+.main-giras {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  .fecha-uy {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-items: flex-start;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: $color-principal;
+    text-transform: uppercase;
+  }
+  .fecha-bsaires {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-items: flex-start;
+    font-size: 2rem;
+    color: $color-principal;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .fecha-vln {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-items: flex-end;
+    font-size: 2rem;
+    color: $color-principal;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+  .fecha-cor {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-items: flex-start;
+    font-size: 2rem;
+    color: $color-principal;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .fecha-cadiz {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-items: flex-end;
+    font-size: 2rem;
+    color: $color-principal;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+  .fecha-bcn {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-items: flex-end;
+    font-size: 2rem;
+    color: $color-principal;
+    text-transform: uppercase;
+    margin-top: 2rem;
   }
 }

@@ -13,56 +13,72 @@
       padding: 6rem;
     }
     /* MAIN GIRAS */
-    .fecha-cor {
-      margin-left: 25rem;
+    .main-giras {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
     }
-    .fecha-bsaires {
-      margin-left: 45rem;
+  }
+  /* MAIN LANZAMIENTOS */
+  .main-lanzamientos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    .album {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      display: block;
+
+      .img-album {
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+        align-items: center;
+      }
+      .img-dwn {
+        display: flex;
+        justify-content: center;
+        height: 5rem;
+      }
+      h3 {
+        color: white;
+        text-align: center;
+      }
     }
-    .fecha-vln {
-      margin-left: 28rem;
+    .jordan {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: block;
+      .img-jordan {
+        height: 20rem;
+        width: 25rem;
+      }
+      h3 {
+        color: white;
+        text-align: center;
+      }
     }
-    .fecha-cadiz {
-      margin-left: 60rem;
-    }
-    /* MAIN LANZAMIENTOS */
-    .titulo-album {
-      font-size: 3rem;
-      margin-left: 35rem;
-    }
-    .albumimg2 {
-      height: 25rem;
-      margin-left: 25rem;
-    }
-    .download {
-      height: 5rem;
-      margin-left: 35rem;
-    }
-    .download-1 {
-      text-transform: uppercase;
-      font-size: 2rem;
-      margin-left: 32rem;
-    }
-    .lasjordan {
-      margin-left: 12rem;
-    }
-    .jordanimg3 {
-      height: 20rem;
-      margin-left: 2rem;
-    }
-    .tepido {
-      margin-left: 50rem;
-    }
-    .tepidoimg2 {
-      height: 20rem;
-      margin-left: 40rem;
+    .te-pido {
+      display: grid;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      display: block;
+      .img-pido {
+        height: 20rem;
+        width: 25rem;
+      }
+      h3 {
+        color: white;
+        text-align: center;
+      }
     }
   }
 
   /* FOOTER */
   footer {
-    img {
-      height: 3rem;
+    .icons-footer {
+      img {
+        height: 5rem;
+      }
     }
   }
 }

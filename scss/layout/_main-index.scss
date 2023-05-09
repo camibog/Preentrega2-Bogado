@@ -1,11 +1,11 @@
 main {
   background-image: url(./../assets/img/tinimain.png);
   background-size: contain;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   .texto-principal {
     font-family: $tipografia-titulos;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     color: $color-principal;
     padding: 5rem;

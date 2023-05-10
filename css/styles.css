@@ -117,20 +117,161 @@ main .texto-principal {
 }
 
 .main-lanzamientos {
-  display: block;
-}
-.main-lanzamientos img {
-  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
 }
 .main-lanzamientos .album {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: block;
+  padding-top: 2rem;
+}
+.main-lanzamientos .album .img-album {
+  height: 60%;
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-left: 10%;
+}
+.main-lanzamientos .album .img-dwn {
+  height: 10%;
+  margin-left: 40%;
+}
+.main-lanzamientos .album h3 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+.main-lanzamientos .album p {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+.main-lanzamientos .jordan {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: block;
+  justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
+}
+.main-lanzamientos .jordan .img-jordan {
+  height: 80%;
+  width: 80%;
+  margin-bottom: 3rem;
+  margin-left: 10%;
+}
+.main-lanzamientos .jordan h3 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Indie flower";
+  text-transform: uppercase;
+}
+.main-lanzamientos .te-pido {
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: block;
+  padding-bottom: 3rem;
+}
+.main-lanzamientos .te-pido .img-pido {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+}
+.main-lanzamientos .te-pido h3 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Indie flower";
+  text-transform: uppercase;
+}
+
+.main-shop {
+  display: block;
+}
+
+.hoddie,
+.t-shirt,
+.triple {
+  padding-top: 3rem;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+.remera-img {
+  height: 45%;
+  width: 55%;
+  margin-left: 20%;
+}
+
+.medidas {
+  display: flex;
+  align-items: center;
+}
+.medidas p {
+  margin-left: 25%;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+.medidas .img-size {
+  height: 10%;
+  width: 12%;
+}
+
+.main-contacto {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-contacto form {
+  height: 25rem;
+  width: 70%;
+  border-radius: 4rem;
+  display: flex;
+  background-color: #cc82c5;
+  justify-content: center;
+}
+.main-contacto form fieldset {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-family: "Indie flower";
+  text-transform: uppercase;
+}
+.main-contacto form fieldset .message {
+  height: 12rem;
+  width: 80%;
+  margin-top: 2rem;
+  font-family: "Indie flower";
+  text-transform: uppercase;
+}
+.main-contacto form fieldset .tituloform {
+  margin-top: 2px;
+  margin-left: 5rem;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Indie flower";
 }
 
 @media (min-width: 768px) {
   header .titulo-propiedades {
-    font-size: 9rem;
     margin-top: 3rem;
-    margin-left: 45rem;
+    margin-left: 6rem;
+    font-size: 8rem;
   }
   /* MAIN INDEX */
   main {
@@ -144,102 +285,134 @@ main .texto-principal {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
   }
-  /* MAIN LANZAMIENTOS */
-  .main-lanzamientos {
+  /* MAIN SHOP */
+  .main-shop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1;
   }
-  .main-lanzamientos .album {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    display: block;
-  }
-  .main-lanzamientos .album .img-album {
-    display: flex;
-    justify-content: center;
-    height: 20rem;
-    align-items: center;
-  }
-  .main-lanzamientos .album .img-dwn {
-    display: flex;
-    justify-content: center;
-    height: 5rem;
-  }
-  .main-lanzamientos .album h3 {
-    color: white;
-    text-align: center;
-  }
-  .main-lanzamientos .jordan {
+  .main-shop .hoddie {
     grid-column-start: 1;
     grid-column-end: 2;
     display: block;
+    margin-bottom: 5rem;
   }
-  .main-lanzamientos .jordan .img-jordan {
-    height: 20rem;
-    width: 25rem;
-  }
-  .main-lanzamientos .jordan h3 {
-    color: white;
+  .main-shop .hoddie h3 {
     text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Oswald";
   }
-  .main-lanzamientos .te-pido {
-    display: grid;
+  .main-shop .hoddie .remera-img {
+    height: 45%;
+    width: 75%;
+    margin-left: 12%;
+  }
+  .main-shop div {
+    display: flex;
+    align-items: center;
+  }
+  .main-shop div p {
+    margin-left: 20%;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Oswald";
+  }
+  .main-shop div .img-size {
+    height: 10%;
+    width: 12%;
+  }
+  .main-shop .t-shirt {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: block;
+    margin-bottom: 5rem;
+    margin-top: 20rem;
+  }
+  .main-shop .t-shirt h3 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Oswald";
+  }
+  .main-shop .t-shirt .remera-img {
+    height: 65%;
+    width: 75%;
+    margin-left: 10%;
+  }
+  .main-shop .triple {
     grid-column-start: 3;
     grid-column-end: 4;
     display: block;
+    margin-bottom: 5rem;
   }
-  .main-lanzamientos .te-pido .img-pido {
-    height: 20rem;
-    width: 25rem;
-  }
-  .main-lanzamientos .te-pido h3 {
-    color: white;
+  .main-shop .triple h3 {
     text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Oswald";
+  }
+  .main-shop .triple .remera-img {
+    height: 35%;
+    width: 65%;
+    margin-left: 12%;
+  }
+  .main-shop .triple div {
+    display: flex;
+    align-items: center;
+  }
+  .main-shop .triple div p {
+    margin-left: 20%;
+    color: white;
+    font-size: 2rem;
+  }
+  .main-shop .triple div .img-size {
+    height: 10%;
+    width: 12%;
+  }
+  /* MAIN CONTACTO */
+  .main-contacto form {
+    width: 50%;
   }
   /* FOOTER */
   footer .icons-footer img {
-    height: 5rem;
+    height: 3rem;
   }
 }
 @media (min-width: 1024px) {
-  /* MAIN INDEX */
-  main {
-    /* MAIN LANZAMIENTOS */
+  header .titulo-propiedades {
+    margin-left: 6rem;
   }
+  /* MAIN INDEX */
   main .texto-principal {
     font-size: 3rem;
     font-family: "Indie flower";
   }
-  main .titulo-album {
-    margin-left: 50rem;
+  /* MAIN GIRAS */
+  .main-giras {
+    font-family: "Indie flower";
+    font-size: 2rem;
   }
-  main .albumimg2 {
-    margin-left: 43rem;
+  /* MAIN LANZAMIENTOS */
+  .main-lanzamientos .album p {
+    margin-left: -2rem;
   }
-  main .albumimg2:hover {
+  .main-lanzamientos .jordan:hover {
     height: 40rem;
   }
-  main .download {
-    margin-left: 52rem;
+  .main-lanzamientos .te-pido:hover {
+    height: 40rem;
   }
-  main .download-1 {
-    margin-left: 49rem;
-  }
-  main .jordanimg3:hover {
-    height: 25rem;
-  }
-  main .tepido {
-    margin-left: 80rem;
-  }
-  main .tepidoimg2 {
-    margin-left: 70rem;
-  }
-  main .tepidoimg2:hover {
-    height: 25rem;
+  /* MAIN CONTACTO */
+  .main-contacto form {
+    width: 30%;
+    height: 60%;
   }
   footer .icons-footer img {
-    height: 6rem;
+    height: 4rem;
   }
 }
 

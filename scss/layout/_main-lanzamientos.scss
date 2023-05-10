@@ -1,9 +1,77 @@
 .main-lanzamientos {
-  display: block;
-  img {
-    height: 20rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
   .album {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: block;
+    padding-top: 2rem;
+
+    .img-album {
+      height: 60%;
+      width: 80%;
+      margin-bottom: 1rem;
+      margin-left: 10%;
+    }
+    .img-dwn {
+      height: 10%;
+      margin-left: 40%;
+    }
+    h3 {
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Oswald";
+      text-transform: uppercase;
+    }
+    p {
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Oswald";
+      text-transform: uppercase;
+    }
+  }
+  .jordan {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: block;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
+    .img-jordan {
+      height: 80%;
+      width: 80%;
+      margin-bottom: 3rem;
+      margin-left: 10%;
+    }
+    h3 {
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      font-family: $tipografia-principal;
+      text-transform: uppercase;
+    }
+  }
+  .te-pido {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: block;
+    padding-bottom: 3rem;
+    .img-pido {
+      height: 80%;
+      width: 80%;
+
+      margin-left: 10%;
+    }
+    h3 {
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      font-family: $tipografia-principal;
+      text-transform: uppercase;
+    }
   }
 }

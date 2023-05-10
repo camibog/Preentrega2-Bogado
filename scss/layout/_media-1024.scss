@@ -1,44 +1,50 @@
 @media (min-width: 1024px) {
+  header {
+    .titulo-propiedades {
+      margin-left: 6rem;
+    }
+  }
   /* MAIN INDEX */
   main {
     .texto-principal {
       font-size: 3rem;
       font-family: "Indie flower";
     }
+  }
 
-    /* MAIN LANZAMIENTOS */
-    .titulo-album {
-      margin-left: 50rem;
+  /* MAIN GIRAS */
+  .main-giras {
+    font-family: $tipografia-principal;
+    font-size: 2rem;
+  }
+
+  /* MAIN LANZAMIENTOS */
+  .main-lanzamientos {
+    .album {
+      p {
+        margin-left: -2rem;
+      }
     }
-    .albumimg2 {
-      margin-left: 43rem;
-    }
-    .albumimg2:hover {
+    .jordan:hover {
       height: 40rem;
     }
-    .download {
-      margin-left: 52rem;
-    }
-    .download-1 {
-      margin-left: 49rem;
-    }
-    .jordanimg3:hover {
-      height: 25rem;
-    }
-    .tepido {
-      margin-left: 80rem;
-    }
-    .tepidoimg2 {
-      margin-left: 70rem;
-    }
-    .tepidoimg2:hover {
-      height: 25rem;
+    .te-pido:hover {
+      height: 40rem;
     }
   }
+
+  /* MAIN CONTACTO */
+  .main-contacto {
+    form {
+      width: 30%;
+      height: 60%;
+    }
+  }
+
   footer {
     .icons-footer {
       img {
-        height: 6rem;
+        height: 4rem;
       }
     }
   }

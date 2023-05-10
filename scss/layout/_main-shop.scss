@@ -1,0 +1,35 @@
+.main-shop {
+  display: block;
+}
+.hoddie,
+.t-shirt,
+.triple {
+  padding-top: 3rem;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: $tipografia-titulos;
+}
+.remera-img {
+  height: 45%;
+  width: 55%;
+  margin-left: 20%;
+}
+.medidas {
+  display: flex;
+  align-items: center;
+  p {
+    margin-left: 25%;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: $tipografia-titulos;
+  }
+  .img-size {
+    height: 10%;
+    width: 12%;
+  }
+}

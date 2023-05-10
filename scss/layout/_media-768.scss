@@ -1,9 +1,9 @@
 @media (min-width: 768px) {
   header {
     .titulo-propiedades {
-      font-size: 9rem;
       margin-top: 3rem;
-      margin-left: 45rem;
+      margin-left: 6rem;
+      font-size: 8rem;
     }
   }
   /* MAIN INDEX */
@@ -18,58 +18,99 @@
       grid-template-rows: repeat(3, 1fr);
     }
   }
-  /* MAIN LANZAMIENTOS */
-  .main-lanzamientos {
+
+  /* MAIN SHOP */
+  .main-shop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1;
-    .album {
-      grid-column-start: 2;
-      grid-column-end: 3;
-      display: block;
-
-      .img-album {
-        display: flex;
-        justify-content: center;
-        height: 20rem;
-        align-items: center;
-      }
-      .img-dwn {
-        display: flex;
-        justify-content: center;
-        height: 5rem;
-      }
-      h3 {
-        color: white;
-        text-align: center;
-      }
-    }
-    .jordan {
+    .hoddie {
       grid-column-start: 1;
       grid-column-end: 2;
       display: block;
-      .img-jordan {
-        height: 20rem;
-        width: 25rem;
-      }
+      margin-bottom: 5rem;
       h3 {
-        color: white;
         text-align: center;
+        color: white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: $tipografia-titulos;
+      }
+      .remera-img {
+        height: 45%;
+        width: 75%;
+        margin-left: 12%;
       }
     }
-    .te-pido {
-      display: grid;
+    div {
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 20%;
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: $tipografia-titulos;
+      }
+      .img-size {
+        height: 10%;
+        width: 12%;
+      }
+    }
+    .t-shirt {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      display: block;
+      margin-bottom: 5rem;
+      margin-top: 20rem;
+      h3 {
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: $tipografia-titulos;
+      }
+      .remera-img {
+        height: 65%;
+        width: 75%;
+        margin-left: 10%;
+      }
+    }
+    .triple {
       grid-column-start: 3;
       grid-column-end: 4;
       display: block;
-      .img-pido {
-        height: 20rem;
-        width: 25rem;
-      }
+      margin-bottom: 5rem;
       h3 {
-        color: white;
         text-align: center;
+        color: white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: $tipografia-titulos;
       }
+      .remera-img {
+        height: 35%;
+        width: 65%;
+        margin-left: 12%;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        p {
+          margin-left: 20%;
+          color: white;
+          font-size: 2rem;
+        }
+        .img-size {
+          height: 10%;
+          width: 12%;
+        }
+      }
+    }
+  }
+  /* MAIN CONTACTO */
+  .main-contacto {
+    form {
+      width: 50%;
     }
   }
 
@@ -77,7 +118,7 @@
   footer {
     .icons-footer {
       img {
-        height: 5rem;
+        height: 3rem;
       }
     }
   }

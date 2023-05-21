@@ -1,0 +1,14 @@
+@mixin titulo-propiedades {
+  font-family: "Oswald";
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: $color-principal;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+@mixin footer-icons {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}

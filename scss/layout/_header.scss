@@ -6,11 +6,6 @@ header {
     display: none;
   }
   .titulo-propiedades {
-    font-family: "Oswald";
-    font-size: 6rem;
-    text-transform: uppercase;
-    color: $color-principal;
-    justify-content: center;
-    margin-bottom: 0;
+    @include titulo-propiedades;
   }
 }

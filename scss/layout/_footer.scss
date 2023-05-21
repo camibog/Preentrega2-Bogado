@@ -1,11 +1,9 @@
 footer {
   background-color: black;
   .icons-footer {
-    display: flex;
-    justify-content: center;
-    padding: 10rem;
+    @include footer-icons;
     img {
-      height: 2rem;
+      height: 1rem;
     }
     .seccion-group {
       display: none;

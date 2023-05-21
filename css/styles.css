@@ -31,10 +31,10 @@ footer {
 footer .icons-footer {
   display: flex;
   justify-content: center;
-  padding: 10rem;
+  padding: 2rem;
 }
 footer .icons-footer img {
-  height: 2rem;
+  height: 1rem;
 }
 footer .icons-footer .seccion-group {
   display: none;
@@ -51,7 +51,7 @@ main .texto-principal {
   font-size: 20px;
   text-align: center;
   color: #e516d1;
-  padding: 5rem;
+  padding: 15rem;
 }
 
 .main-giras {
